@@ -4,8 +4,8 @@ ko='\e[00;31m';
 wipe='\e[00m';
 ok='\e[01;32m';
 
-BASE=./sources
-TEST=./tests
+BASE=../src
+TEST=./
 RET=
 
 function test_command {
