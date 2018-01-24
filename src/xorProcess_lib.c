@@ -295,6 +295,7 @@ void dictionary_crack(String inputFile, lenth inputFileLenth, String* Keys, int 
                             {
                                 ++nbValidWords_tmp;
                                 nbOfInputWords +=1;
+                                break;
                             }
                             
                     currentletter = 0;

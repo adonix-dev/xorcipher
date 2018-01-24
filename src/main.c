@@ -72,6 +72,6 @@ int main(int argc, const char* argv[])
 	if(!processOption(inputFile, inputFileLenth, outputFileName, key, mode, keyLenth)) exit(-1);	// UTILISATION DES VARIABLE EN MEMOIRE POUR EXECUTER LES ORDRES DE L'UTILISATEUR
 	    
 	clock_t end_Time = clock();			// ARRET DU CHRONOMETRE
-    printf("%.6f sec\n", (double)(end_Time - begin_Time) / CLOCKS_PER_SEC);// AFFICHAGE TU TEMPS ECOULE SOIT LE TEMPS D'EXECUTION DU PROGRAMME
+    fprintf(stderr, "%.6f sec\n", (double)(end_Time - begin_Time) / CLOCKS_PER_SEC);// AFFICHAGE TU TEMPS ECOULE SOIT LE TEMPS D'EXECUTION DU PROGRAMME
  	return 0;
 }

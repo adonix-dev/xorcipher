@@ -4,8 +4,8 @@ ko='\e[00;31m';
 wipe='\e[00m';
 ok='\e[01;32m';
 
-BASE=../src
-TEST=./
+BASE=./src
+TEST=./tests
 RET=
 
 function test_crack1 {

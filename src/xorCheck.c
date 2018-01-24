@@ -42,7 +42,6 @@ int checkInFile(const char* argument, String* FileStore, lenth* FileLenth){
 			{
 				tmpStr = (String)realloc(tmpStr, i*realloc_size*sizeof(unsigned char));
 				realloc_counter = 0;
-
 			}
 			++realloc_counter;
 			++i;
